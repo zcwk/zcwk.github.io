@@ -7,21 +7,21 @@ kramdown:
 
 # 作者信息
 author: 
-  name: 闫肃
-  email: suyan0830@gmail.com
-  link: http://yansu.org
-  weibo: http://weibo.com/yansu0711
-  github: http://github.com/suyan
+  name: 忧伤的逃兵
+  email: zdzzyc@gmail.com
+  link: http://zcwk.github.io
+  weibo: http://weibo.com/2739450712
+  github: http://github.com/zcwk
 
 # 站点信息
-title: 闫肃的博客 
-description: 闫肃的博客
-url: http://yansu.org
+title: 忧伤的逃兵的博客 
+description: 忧伤的逃兵的博客
+url: http://zcwk.github.io
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
-avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
-favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+avatar: https://avatars2.githubusercontent.com/u/6406512?v=3&u=e1c9820d844105212f65220b3134d66d8eff42aa&s=140
+favicon: https://avatars2.githubusercontent.com/u/6406512?v=3&u=e1c9820d844105212f65220b3134d66d8eff42aa&s=140
 
 # google analytics 设置
 ga:
