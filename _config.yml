@@ -26,8 +26,8 @@ favicon: https://avatars2.githubusercontent.com/u/6406512?v=3&u=e1c9820d84410521
 # google analytics 设置
 ga:
   id: UA-54767140-1
-  url: yansu.org
+  url: zcwk.github.io
 
 # disqus 设置
 disqus:
-  shortname: ade_zhou
+  shortname: zcwk
