@@ -19,7 +19,7 @@ keywords: 学习,网站,2015
 
 [代码家](https://github.com/daimajia)[干货集中营](https://gank.io)
 
-[郭霖](http://blog.csdn.net/guolin_blog)
+[郭霖的博客](http://blog.csdn.net/guolin_blog)[github](https://github.com/hongyangAndroid)
 
 [鸿洋](http://blog.csdn.net/lmj623565791?viewmode=contents)
 
