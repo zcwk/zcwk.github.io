@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 平时收录的学习网站
-category: 网站
+category: 读书
 keywords: 学习,网站,2015
 ---
 
