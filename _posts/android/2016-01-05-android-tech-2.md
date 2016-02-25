@@ -128,9 +128,11 @@ keywords: Android,RxJava
 	
 个人觉得必须要会看宝石图![](http://reactivex.io/assets/operators/legend.png) 
 
-		[Rx的官网](http://link.zhihu.com/?target=http%3A//reactivex.io/)就是最好的文档，[也有学习的集合贴](http://link.zhihu.com/?target=http%3A//reactivex.io/tutorials.html)
-		[实战案例](https://github.com/kaushikgopal/RxJava-Android-Samples)
-		[中文学习链接](https://github.com/lzyzsd/Awesome-RxJava)
+[Rx的官网](http://link.zhihu.com/?target=http%3A//reactivex.io/)就是最好的文档，[也有学习的集合贴](http://link.zhihu.com/?target=http%3A//reactivex.io/tutorials.html)
+
+[实战案例](https://github.com/kaushikgopal/RxJava-Android-Samples)
+
+[中文学习链接](https://github.com/lzyzsd/Awesome-RxJava)
 
 
 
