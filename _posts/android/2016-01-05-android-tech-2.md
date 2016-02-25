@@ -1,8 +1,8 @@
 ---
 layout: post
 title: RxJava-操作符的作用
-category: Android RxJava
-tags: Android
+category: Android
+tags: Android RxJava
 keywords: Android,RxJava
 ---
 
