@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 别人开发遇到的坑
+title: 总结开发遇到的坑
 category: Android
 tags: Android 开发总结
 keywords: Android,开发总结
