@@ -43,3 +43,9 @@ wx.requestPayment({
       }
     })
 ```
+
+认真确认一下传参的大小写。如果没有错的话。那就是服务器的生成paySign的问题。我就遇到这个坑。服务哥们说不是他的问题。然后我就让他去验证一下。[验证地址](https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=20_1)
+
+通过验证果然是服务端生成paySign大小写没注意。
+
+
