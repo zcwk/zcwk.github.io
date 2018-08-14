@@ -12,6 +12,7 @@ keywords: 源码解析
 classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
 
 compile 'com.google.auto.service:auto-service:1.0-rc2'
+
 compile 'com.squareup:javapoet:1.7.0'
 
 哈哈哈 我来解释一下这几个东西是什么玩意哦
