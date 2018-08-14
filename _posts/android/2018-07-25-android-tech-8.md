@@ -61,4 +61,6 @@ keywords: Android
 ```
 我想说一句其实CoordinatorLayout的功能真的很强大。不是我们想的只是滑动视觉效果差而已。可以实现很多炫酷的功能的
 
+[详细请看](https://juejin.im/post/585bb76961ff4b006cc9d5b6)
+
 

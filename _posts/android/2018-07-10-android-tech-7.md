@@ -38,6 +38,20 @@ compile 'jp.wasabeef:glide-transformations:2.0.1'
 
 -[解决webView奇葩问题的封装](https://github.com/Justson/AgentWeb)
 
+## RxJava防止内存泄漏
+-[Trello的RxLifecycle](https://github.com/trello/RxLifecycle)
+-[知乎的RxLifecycle](https://github.com/zhihu/RxLifecycle)
+-[<<RxJava 2.x 实战>> 作者的RxLifecycle](https://github.com/fengzhizi715/SAF/tree/master/saf-rxlifecycle) 
+
+## [标签布局 Android可伸缩布局－FlexboxLayout](https://juejin.im/post/58d1035161ff4b00603ca9c4)
+
+
+## [关于workManager来处理后台上传问题](http://hukai.me/google-io-2018-android-jetpack-workmanager/)
+
+## [Android应用增量更新](https://github.com/cundong/SmartAppUpdates)
+
+
+
 
 
 
