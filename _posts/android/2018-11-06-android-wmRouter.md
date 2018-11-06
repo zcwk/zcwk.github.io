@@ -31,13 +31,19 @@
     
     推送打开官网  key=/web/base
                  url=http://www.mixpace.com
+                 
+    H5打开福利页面  mixpace://mixpace_host/home/welfare
+    
+    推送打开福利页面  key=/home/welfare
+    
 
 ### 相应的协议
 | 打开的界面        | H5路径    | 极光推送路径   |  参数  |
 | --------   | -----  | -----   | ---- |
 | 活动详情页        | mixpace://mixpace_host/web/activityDetail    | key= /web/activityDetail      |   url=http://xxxxx    |
-| HOD活动详情页     | mixpace://mixpace_host/web/hodDetail         | key= /web/hodDetail          |   url=http://xxxxx    |
-| 拼团活动详情      | mixpace://mixpace_host/web/groupDetail       | key= /web/groupDetail         |   url=http://xxxxx    |
+| HOD活动详情页     | mixpace://mixpace_host/web/base         | key= /web/base          |   url=http://xxxxx    |
+| 拼团活动详情      | mixpace://mixpace_host/web/base       | key= /web/base         |   url=http://xxxxx    |
+| xxx      | xxx       | key= xxx         |   url=http://xxxxx    |
 
 ### 说明
 
