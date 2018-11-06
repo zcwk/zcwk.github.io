@@ -40,12 +40,9 @@
 ### 相应的协议
 | 打开的界面        | H5路径    | 极光推送路径   | 
 | --------   | -----  | -----   | 
-| 活动详情页        | mixpace://mixpace_host/web/activityDetail?url=http://xxxxx    | key= /web/activityDetail   
-param= url=http://xxxxx.com&id=3456      |  
-| HOD活动详情页     | mixpace://mixpace_host/web/base?url=http://xxxxx         | key= /web/base   
-param= url=http://xxxxx.com&id=3456          |   
-| 拼团活动详情      | mixpace://mixpace_host/web/base?url=http://xxxxx       | key= /web/base   
-param= url=http://xxxxx.com&id=3456         |   
+| 活动详情页        | mixpace://mixpace_host/web/activityDetail?url=http://xxxxx    | key= /web/activityDetail   param=url=http://xxxxx.com&id=3456      |  
+| HOD活动详情页     | mixpace://mixpace_host/web/base?url=http://xxxxx         | key= /web/base   param= url=http://xxxxx.com&id=3456          |   
+| 拼团活动详情      | mixpace://mixpace_host/web/base?url=http://xxxxx       | key= /web/base   param= url=http://xxxxx.com&id=3456         |   
 | 我的活动界面      | mixpace://mixpace_host/activity/myActivity         | key= /activity/myActivity         |  
 
 ### 说明
