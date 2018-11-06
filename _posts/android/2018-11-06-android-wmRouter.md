@@ -26,11 +26,11 @@
             /mine 打开主页的我的tab
       
 ### 相应的协议
-| 打开的界面        | H5路径    | 极光推送路径    |  参数  |
+| 打开的界面        | H5路径    | 极光推送路径   |  参数  |
 | --------   | -----:  | -----:   | :----: |
-| 活动详情页        | /web/activityDetail    | /web/activityDetail      |   url=http://xxxxx    |
-| HOD活动详情页     | /web/hodDetail     | /web/hodDetail          |   url=http://xxxxx    |
-| 拼团活动详情      | /web/groupDetail      | /web/groupDetail         |   url=http://xxxxx    |
+| 活动详情页        | mixpace://mixpace_host/web/activityDetail    | key= /web/activityDetail      |   url=http://xxxxx    |
+| HOD活动详情页     | mixpace://mixpace_host/web/hodDetail     | key= /web/hodDetail          |   url=http://xxxxx    |
+| 拼团活动详情      | mixpace://mixpace_host/web/groupDetail      | key= /web/groupDetail         |   url=http://xxxxx    |
 
 ### 说明
 
