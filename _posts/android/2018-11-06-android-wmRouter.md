@@ -39,5 +39,5 @@
 | 我的活动界面      | mixpace://mixpace_host/myActivity         | key= /myActivity         |  
 
 ### 说明
-    H5打开的时候记得在路径后面加入参数哦，比如 mixpace://mixpace_host/web/activityDetail?url=http://xxxxx   
+    H5打开的时候记得在路径后面加入参数哦，比如 mixpace://mixpace_host/web?url=http://xxxxx   
 
