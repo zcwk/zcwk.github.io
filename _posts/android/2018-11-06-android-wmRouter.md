@@ -43,7 +43,7 @@
 | 活动详情页        | mixpace://mixpace_host/web/activityDetail    | key= /web/activityDetail      |   url=http://xxxxx    |
 | HOD活动详情页     | mixpace://mixpace_host/web/base         | key= /web/base          |   url=http://xxxxx    |
 | 拼团活动详情      | mixpace://mixpace_host/web/base       | key= /web/base         |   url=http://xxxxx    |
-| xxx      | xxx       | key= xxx         |   url=http://xxxxx    |
+| 我的活动界面      | mixpace://mixpace_host/activity/myActivity         | key= /activity/myActivity         |   空    |
 
 ### 说明
     H5打开的时候记得在路径后面加入参数哦，比如 mixpace://mixpace_host/web/activityDetail?url=http://xxxxx   
