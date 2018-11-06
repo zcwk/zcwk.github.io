@@ -33,7 +33,7 @@
 ### 相应的协议
 | 打开的界面        | H5路径    | 极光推送路径   | 
 | --------   | -----  | -----   | 
-| 活动详情页        | mixpace://mixpace_host/web?url=http://xxxxx&id=3456    | key= /web/activityDetail   param=url=http://xxxxx.com&id=3456&share=1      |  
+| 活动详情页        | mixpace://mixpace_host/web?url=http://xxxxx&id=3456&share=1    | key= /web/activityDetail   param=url=http://xxxxx.com&id=3456&share=1      |  
 | HOD活动详情页     | mixpace://mixpace_host/web?url=http://xxxxx         | key= /web/base   param=url=http://xxxxx.com          |   
 | 拼团活动详情      | mixpace://mixpace_host/web?url=http://xxxxx       | key= /web/base   param=url=http://xxxxx.com         |   
 | 我的活动界面      | mixpace://mixpace_host/myActivity         | key= /myActivity         |  
