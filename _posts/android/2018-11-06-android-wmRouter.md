@@ -5,15 +5,15 @@
 
 1.mixpace
 
-  H5 唤醒的Scheme （后端极光推送不用管这个）
+    H5 唤醒的Scheme （后端极光推送不用管这个）
   
 2.mixpace_host
 
-  H5 唤醒的协议Host （后端极光推送不用管这个）
+    H5 唤醒的协议Host （后端极光推送不用管这个）
   
 3./web/base
 
-  分两级
+    分两级
   
   1）第一级 /web 代表对应的界面 
   
