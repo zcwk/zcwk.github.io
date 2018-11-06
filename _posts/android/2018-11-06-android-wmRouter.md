@@ -46,4 +46,5 @@
 | xxx      | xxx       | key= xxx         |   url=http://xxxxx    |
 
 ### 说明
+    H5打开的时候记得在路径后面加入参数哦，比如 mixpace://mixpace_host/web/activityDetail?url=http://xxxxx   
 
