@@ -25,8 +25,12 @@
       
             /mine 打开主页的我的tab
       
-### H5唤醒
+### 相应的协议
+| 打开的界面        | H5路径    | 极光推送路径    |  参数  |
+| --------   | -----:  | -----:   | :----: |
+| 活动详情页        | /web/activity    | /web/activity      |   url=http://xxxxx    |
+| HOD活动详情页     | /web/hod     | /web/activity          |   url=http://xxxxx    |
+| 拼团活动详情      | /web/hod      | /web/activity         |   url=http://xxxxx    |
 
-
-### 极光推送唤醒
+### 说明
 
