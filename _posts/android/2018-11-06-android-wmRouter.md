@@ -3,15 +3,15 @@
 
 固定的协议 mixpace://mixpace_host/web/base?url=http://114.55.255.164:8093/activity/#/bridge
 
-1.mixpace
+#### mixpace
 
   H5 唤醒的Scheme （后端极光推送不用管这个）
   
-2.mixpace_host
+#### mixpace_host
 
   H5 唤醒的协议Host （后端极光推送不用管这个）
   
-3./web/base
+#### /web/base
 
   分两级
   
