@@ -41,4 +41,5 @@
 ### 说明
     参数id 表示活动id
     参数share 表示web界面右上角是要有分享按钮
+    参数token 表示需要在url后面加token
 
