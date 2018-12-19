@@ -37,7 +37,8 @@
 | HOD活动详情页     | mixpace://mixpace_host/web?url=http://xxxxx         | key= /web   param=url=http://xxxxx.com          |   
 | 拼团活动详情      | mixpace://mixpace_host/web?url=http://xxxxx?token=1       | key= /web   param=url=http://xxxxx.com?token=1          |   
 | 我的活动界面      | mixpace://mixpace_host/myActivity         | key= /myActivity         |  
-
+| 我的优惠券      | mixpace://mixpace_host/myCoupon?account_id=34        | key= /myCoupon param=account_id=34         |
+| 团推优惠券      | mixpace://mixpace_host/teamCoupon?account_id=54      | key= /teamCoupon param=account_id=54        |
 ### 说明
     参数id 表示活动id
     参数share 表示web界面右上角是要有分享按钮
