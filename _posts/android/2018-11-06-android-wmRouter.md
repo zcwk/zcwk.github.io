@@ -33,10 +33,10 @@
 ### 相应的协议
 | 打开的界面        | H5路径    | 极光推送路径   | 
 | --------   | -----  | -----   | 
-| 活动详情页        | mixpace://mixpace_host/web?url=http://xxxxx&id=3456&share=1    | key= /web param="url=http://xxxxx.com&id=3456&share=1"      |  
-| HOD活动详情页     | mixpace://mixpace_host/web?url=http://xxxxx         | key= /web   param="url=http://xxxxx.com&id=3456&share=1"          |   
-| 拼团活动详情      | mixpace://mixpace_host/web?url=http://xxxxx?token=1       | key= /web   param="url=http://xxxxx.com?token=1&id=3456&share=1"          |   
-| 我的活动界面      | mixpace://mixpace_host/myActivity         | key= /myActivity         |  
+| 活动详情页        | mixpace://mixpace_host/web?url=http://xxxxx&id=3456&share=1    | key= "/web" param="url=http://xxxxx.com&id=3456&share=1"      |  
+| HOD活动详情页     | mixpace://mixpace_host/web?url=http://xxxxx         | key= "/web"   param="url=http://xxxxx.com&id=3456&share=1"          |   
+| 拼团活动详情      | mixpace://mixpace_host/web?url=http://xxxxx?token=1       | key= "/web"   param="url=http://xxxxx.com?token=1&id=3456&share=1"          |   
+| 我的活动界面      | mixpace://mixpace_host/myActivity         | key= "/myActivity"         |  
 | 我的优惠券      | mixpace://mixpace_host/myCoupon?account_id=34        | key= /myCoupon param="account_id=34&id=3456&share=1"         |
 | 团推优惠券      | mixpace://mixpace_host/teamCoupon?account_id=54      | key= /teamCoupon param="account_id=54&id=3456&share=1"        |
 ### 说明
