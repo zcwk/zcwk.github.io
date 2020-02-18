@@ -1,0 +1,96 @@
+---
+layout: post
+title: 源码魔改
+category: Android
+tags: 源码魔改 源码魔改
+keywords: 源码魔改 笔记
+---
+
+
+## adb 命令
+ 
+1.ROOT你的手机
+2.用adb shell登录后，用su root切换到root用户，切换后显示#号，表示切换成功
+3.用mount命令重新加载文件系统：mount -o rw,remount yaffs2 /system
+
+ adb connect 10.12.9.210:5555
+
+ 10.12.9.149:5556
+
+ adb shell
+
+ su root
+
+ mount -o rw,remount yaffs2 /system
+
+
+
+ 把本地文件放到android设备上
+
+ adb pull /Users/zhoudezheng/Ade/firefly/bootanimation.zip system/media/
+
+## 把文件传到Linux上
+
+ 上传文件,注意不要在已经等了的控制台执行。会发现提示找不到文件目录的
+ scp /Users/zhoudezheng/Desktop/ROOT.war  ade@你的电脑ip:/opt/install/apache-tomcat-9.0.2/webapps/ROOT.war
+
+
+
+1.修改firefly nanopi m4 的源码，主要还是按照 http://wiki.friendlyarm.com/wiki/index.php/NanoPi_M4/zh#.E7.BC.96.E8.AF.91.E5.B9.B6.E7.94.9F.E6.88.90Image.E6.96.87.E4.BB.B6
+来做，但是要注意。一定要按照文案的环境认真配一下。不然他不会生成kernel.img 和少了很多.img 文件。虽然它编译成功了。
+
+还有一个点。就是nanopi m4的生成的文件后还需要去window上制作sdcard 的启动TF卡，只有这条路径哦。其他的都是坑啊
+烧写系统到eMMC
+NanoPi-M4需要通过SD卡启动，使用EFlasher工具将系统烧写到eMMC。
+
+
+详细操作步骤如下：
+准备一张8G或以上容量的SDHC卡;
+下载并解压 固件文件rk3399-eflasher-OSNAME-YYYYMMDD.img.zip 和 工具win32diskimager;
+在Windows下以管理员身份运行 win32diskimager，在界面上选择你的SD卡盘符，选择解压后的EFlasher固件，点击 Write 按钮烧写到SD卡; 或者在 Linux下使用 dd 命令将 rk3399-eflasher-OSNAME-YYYYMMDD.img 写入 SD卡;
+将SD卡从电脑端弹出，插入NanoPi-M4的microSD卡槽;
+连接NanoPi-M4的电源，系统会从SD卡启动，并自动启动 EFlasher 烧写工具，你有多种途径可以操作 EFlasher:
+方法1: 连接HDMI显示屏和USB鼠标，在图形界面上操作EFlasher;
+方法2: 将开发板通过网线接入局域网，通过 ssh 登录开发板，然后输入命令 eflasher，根据命令行的提示进行操作;（注: ssh登录的用户是root,密码为fa,开发板IP可查看路由器后台获得)
+方法3: 通过调试串口登录到串口终端，在终端上输入命令 eflasher 来操作;
+方法4: 连接一个lcd2usb配件到NanoPi-M4上，按配件上面的K1键可以选择要烧写的系统，然后按K2键确定烧写，烧写进度会在lcd2usb上显示;
+烧写完成后，切断电源，然后从NanoPi-M4端弹出SD卡，然后重新上电开机，NanoPi-M4会从eMMC启动你刚刚烧写的系统;
+
+
+
+### 重要提示
+
+怎么把我们编译好的.img 文件写入SD卡启动刷系统呢，其实就是很简单。把我们Linux生成的文件拷贝的我们制作好的SD卡下的android8（你制作启动SD卡的时候选择的系统版本）目录下。
+
+
+### 修改android目录下的文件
+
+如：root@xxx:/ vi default.prop
+
+/system/bin/sh: vi: not found  的问题。
+
+解决方法：
+
+采用busybox vi default.prop 命令即可正确打开文件。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
