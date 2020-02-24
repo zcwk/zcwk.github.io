@@ -1,6 +1,9 @@
 ---
-
-layout: post
+layout: post # 使用post模版
+title:  "关于我"
+date:   2018-08-14
+categories: life
+---
 
 ## title: Welcome
 
