@@ -6,6 +6,49 @@ tags: Android RxJava
 keywords: Android,RxJava
 ---
 
+
+MVVM如何优雅的解决Rxjava的泄漏问题，
+
+1,利用ObservableTransformer和CompositeDisposable
+```
+object RxTransformer {
+
+    fun <T> observableToMain(compositeDisposable: CompositeDisposable): ObservableTransformer<T, T> {
+        return ObservableTransformer { upstream ->
+            upstream.subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .doOnSubscribe {
+                    compositeDisposable.add(it)
+                }
+        }
+    }
+}
+```
+
+2,一般我们的BaseViewModel中处理清理
+```
+open class BaseViewModel(application: Application) : AndroidViewModel(application) {
+
+    val compositeDisposable: CompositeDisposable = CompositeDisposable()
+    override fun onCleared() {
+        super.onCleared()
+        compositeDisposable.clear()
+    }
+}
+```
+
+3.在业务ViewModel中使用
+```
+Observable.interval(500,TimeUnit.MILLISECONDS)
+            .compose(RxTransformer.observableToMain(compositeDisposable))
+            .subscribe {
+                XLog.d(">>>>>>>>>>>"+it)
+            }
+```
+
+这样在Activity销毁的时候自动会帮你取消，也可以用AutoDisposable和RxLifecycle去处理
+
+
 对于初学者对众多的RxJava 的操作符有很多都不知道他们的用法和不知道用在什么地方，什么时候才用。自己来记录一下。
 
 这些知识点来源：知乎网友-冷月-的回答
