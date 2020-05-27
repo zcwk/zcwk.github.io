@@ -72,14 +72,33 @@ static final Migration MIGRATION_3_4 = new Migration(3, 4) {
 ## 常用SQL语句
 
 ```
+//增加新字段
+database.execSQL("ALTER TABLE user ADD age INTEGER Default 0 not null ")
+
+
 //创建新的数据表
-database.execSQL("CREATE TABLE IF NOT EXISTS `owner` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `room_id` TEXT, `name` TEXT, `portrait` TEXT)");
+database.execSQL("CREATE TABLE temp_Student (" +
+                    "id INTEGER PRIMARY KEY NOT NULL," +
+                    "name TEXT," +
+                    "age TEXT)");
+
+// 拷贝数据
+database.execSQL("INSERT INTO temp_Student (id, name, age) " +
+                    "SELECT id, name, age FROM Student");
+                    
+// 删除老的表
+database.execSQL("DROP TABLE Student");
+
+// 改名
+database.execSQL("ALTER TABLE temp_Student RENAME TO Student");
 
 //模糊查询
 @Query("SELECT * FROM owner WHERE room_id LIKE '%' || :roomId || '%'")
     fun getAllOwnerByRoomId(roomId: String): List<Owner>
 
-        
+@Query("SELECT * FROM user WHERE age BETWEEN :minAge AND :maxAge")
+    public User[] loadAllUsersBetweenAges(int minAge, int maxAge);
+
 ```
 
 
